@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+
+    <TextView
+        android:id="@+id/intro_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:includeFontPadding="false"
+        android:padding="@dimen/padding_regular"
+        android:text="@string/intro_text"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/choose_dessert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/intro_text"
+        android:padding="@dimen/padding_regular"
+        android:text="@string/choose_a_dessert"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/intro_text" />
+
+    <ImageView
+        android:id="@+id/donut"
+        android:layout_width="133dp"
+        android:layout_height="136dp"
+        android:contentDescription="@string/donuts"
+        android:padding="@dimen/padding_regular"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/choose_dessert"
+        app:srcCompat="@drawable/donut_circle"
+        android:onClick="showDonutOrder"
+        />
+
+    <TextView
+        android:id="@+id/first_description"
+        android:layout_width="187dp"
+        android:layout_height="126dp"
+        android:layout_marginTop="8dp"
+        android:padding="@dimen/padding_wide"
+        android:text="@string/donuts"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/donut"
+        app:layout_constraintTop_toBottomOf="@+id/choose_dessert" />
+
+    <ImageView
+        android:id="@+id/ice_cream"
+        android:layout_width="133dp"
+        android:layout_height="145dp"
+        android:contentDescription="@string/ice_cream_sandwiches"
+        android:padding="@dimen/padding_regular"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/donut"
+        app:srcCompat="@drawable/icecream_circle"
+        android:onClick="showIceCreamOrder"
+        />
+
+    <TextView
+        android:id="@+id/second_description"
+        android:layout_width="191dp"
+        android:layout_height="149dp"
+        android:padding="@dimen/padding_wide"
+        android:text="@string/ice_cream_sandwiches"
+        app:layout_constraintStart_toEndOf="@+id/ice_cream"
+        app:layout_constraintTop_toBottomOf="@+id/first_description" />
+
+    <ImageView
+        android:id="@+id/froyo"
+        android:layout_width="133dp"
+        android:layout_height="148dp"
+        android:contentDescription="@string/froyo"
+        android:padding="@dimen/padding_regular"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ice_cream"
+        app:srcCompat="@drawable/froyo_circle"
+        android:onClick="showFroyoOrder"
+        />
+
+    <TextView
+        android:id="@+id/third_description"
+        android:layout_width="191dp"
+        android:layout_height="148dp"
+        android:padding="@dimen/padding_wide"
+        android:text="@string/froyo"
+        app:layout_constraintStart_toEndOf="@+id/froyo"
+        app:layout_constraintTop_toBottomOf="@+id/second_description" />
+</androidx.constraintlayout.widget.ConstraintLayout>

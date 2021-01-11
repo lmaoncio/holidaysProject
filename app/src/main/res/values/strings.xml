@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">holidaysProject</string>
+    <string name="you_were_expecting_something_profound">Were you expecting something profound?</string>
+    <string name="what_time_is_it">What time is it?</string>
+    <string name="homer">Homer</string>
+    <string name="danger">TODO</string>
+    <string name="question">2 + 2 =</string>
+    <string name="is_not_checked">IS NOT CHECKED</string>
+    <string name="green">GREEN</string>
+    <string name="red">RED</string>
+    <string name="blue">BLUE</string>
+    <string name="keyboard_examples">Keyboard Examples</string>
+    <string name="choose_the_date_and_time">Choose the date and time:</string>
+    <string name="alert">ALERT</string>
+    <string name="tap">TAP</string>
+    <string name="date">DATE</string>
+    <string name="time">TIME</string>
+    <string name="title_activity_task6_7">Task6_7</string>
+    <string name="intro_text">Droid Desserts</string>
+    <string name="donut_order_message"> You ordered a donut.</string>
+    <string name="ice_cream_order_message"> You ordered an ice cream sandwich.</string>
+    <string name="froyo_order_message"> You ordered a froyo.</string>
+    <string name="chosen">"Chosen: "</string>
+    <string name="nothing_clicked">onRadioButtonClicked: Nothing clicked.</string>
+
+
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="choose_a_dessert">Choose a dessert.</string>
+    <string name="donuts">Donuts are glazed and sprinkled with candy.</string>
+    <string name="ice_cream_sandwiches">Ice cream sandwiches have chocolate wafers and danilla filling.</string>
+    <string name="froyo">FroYo is premium self-serve frozen yogurt.</string>
+    <string name="choose_a_delivery_method">Choose a delivery method:</string>
+    <string name="same_day_messenger_service">Same day messenger service</string>
+    <string name="next_day_ground_delivery">Next day ground delivery</string>
+    <string name="pick_up">Pick up</string>
+
+</resources>
